@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+background-image:url("../images/redbrickwall.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+
+background-color: indianred;
+
+}
+a { color:white;
+}
+
+a:hover{color: limegreen;}
+
+.flexbox-container2{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: stretch;
+	justify-content: space-around;
+	min-width: 900px;
+	background-color: ;
+	flex-shrink: 1;
+}
+ 
+.flexbox-container1{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content:strech;
+	min-width: 900px;
+	background-color: ;
+	flex-shrink: 1;
+}
+
+.header{ 
+background-color:black;	
+
+background-image:url("../images/guitarcenter2.jpg") ;
+background-size: auto;
+background-position: center;
+background-repeat: no-repeat;
+font-size: 70px;
+padding: 70px;
+margin: 30px;
+margin-bottom: 40px;
+min-width:1269px;
+min-height: 250px;
+border: solid 5px black;
+flex-shrink: 3;
+
+}
+
+.flexbox-item{
+	background-color:;
+	min-height: 400px;
+	min-width: 400px;
+	margin-top: 20px;
+	border: solid 5px black;
+	flex-shrink:1 ;
+}
+
+.flexbox-container3{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content:stretch;
+	min-width: 900px;
+	flex-shrink: 1;
+	
+	}
+
+.footer{
+	background-image:url("../images/guitaroutline.png");
+	background-size:650px;
+	background-repeat:no-repeat;
+	background-position: center;
+	padding: 100px;
+	margin: 30px;
+	margin-bottom: 40px;
+	min-width: 1269px;
+	text-align: center;
+	font-size:20px;
+	font-family: verdana;
+	flex-shrink: 1;
+	color: red;
+
+
+}
+
+
+.flexbox-item1{
+background-image:url("../images/sg.jpg");
+background-size:400px;
+background-repeat: no-repeat;
+position:;
+flex-shrink: 1;
+}
+
+.flexbox-item2{
+background-image:url("../images/strat.jpg");
+background-size:400px;
+background-repeat: no-repeat;
+flex-shrink: 1;
+	
+	
+}
+.flexbox-item3{
+background-image:url("../images/lespaul.jpg");
+background-size:400px;
+background-repeat: no-repeat;
+flex-shrink: 1;
+}
+
+.flexbox-item4{
+		background-image:url("../images/acoustic.jpg");
+	background-size:400px;
+	background-repeat: no-repeat;
+	flex-shrink: 1;
+
+}
+
+.flexbox-item5{
+	background-image:url("../images/telecaster.jpg");
+	background-size:400px;
+	background-repeat: no-repeat;
+	flex-shrink: 1;
+
+}
+
+.flexbox-item6{
+	background-image:url("../images/ibanez.jpg");
+	background-size:400px;
+	background-repeat: no-repeat;
+	flex-shrink: 1;
+}
+
+.buy{
+	background-color:black;
+	padding: 20px;
+	padding-right: 70px;
+	margin-top: 335px;
+	font-size: 20px;
+	margin-right: 0px;
+
+	
+
+
+}
+
+.buybutton{
+
+font-size: 20px;
+margin-left: 120px;
+margin-right: -45px;
+position:relatives;
+}
+
+.buystrat{ 
+	background-color: black;
+	padding: 20px;
+	padding-right: 10px;
+	margin-top: 335px;
+	font-size: 20px;
+	margin-right: 0px; }
+
+.name{
+	position: absolute;
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-top: -380px;
+	marin-right: 200px;
+	font-size:25px;
+	background-color:black;
+	background-size: 40px;
+
+
+
+}
+ 
+.back{
+margin-right: 60px;
+}
+
+.Next{
+margin-left: 60px;
+}
+
+
+/* the justify content is one the most important functions of flexbox, you can
+use the space between tag to add an even amount of space between the flexitems or
+you can center them. You can also add an even amount of space around the items with 
+the space around command. but they justify work from left to right 
+*/
+/* Im making all the next code a comment for the tutorials sake
+justify-content: center;
+
+
+ the align items command is the justify content of the cross axis. it is automatically set to 
+stretch. meaning the boxes stretch to fill the flexbox-container as much as they can.
+to keep the origanl box size you set for the flexitems use the flext start command.
+You can also center them horizaontly with the center tag
+ flex-wrap: wrap;
+
+ align-items:center ;*/
+
+/* the align content is similar to justify content. as the viewport (screen)
+shrinks, it determines how the content lines up and spaces iteself around the 
+shrinking flex-container. either at the flex-end or the flex-start.You can
+use almost all the tags from justify-content tag*/
+
+
+}
+
+
+
